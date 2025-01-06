@@ -1,0 +1,13 @@
+# --- SYSTEM DEPENDENCIES (Must be installed manually) ---
+# Run the following commands before using pip:
+# python3 -m venv recovery_env
+# source recovery_env/bin/activate  
+# recovery_env\Scripts\activate      
+
+# --- Python Packages ---
+tqdm==4.66.1
+numpy==2.2.1
+scipy --only-binary :all:
+
+# `pytsk3` must be installed manually (no compatible pip version)
+# pip install pytsk3
